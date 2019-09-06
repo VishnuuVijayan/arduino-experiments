@@ -5,6 +5,17 @@ Description: When you press the button, you can see the state
 Website: www.quadstore.in
 ***********************************************************/
 
+/*Connections: 
+ * LED Cathode to Resistor R2 = 220 ohm
+  * LED Anode to 11
+  * R2 to GND
+  * Button first pin to Resistor R1 = 10K
+  * Button Second pin to GND
+  * Leave other 2 pins
+  * R1 second end to 5V
+ * 
+*/
+
 int ledpin=11;            //definition digital 11 pins as pin to control the LED
 int btnpin=2;             //Set the digital 2 to button interface 
 
