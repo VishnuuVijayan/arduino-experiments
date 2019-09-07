@@ -1,6 +1,9 @@
 /*
  * Control LED using Serial Monitor.
  * 
+ * Connections
+ * 
+ * 
  * LED Anode to pin 13
  * LED Cathode to Resistor R1 = 220 Ohm
  * Another end of R1 to GND
