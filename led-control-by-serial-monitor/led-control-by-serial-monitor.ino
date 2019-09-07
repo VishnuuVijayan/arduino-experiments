@@ -1,3 +1,17 @@
+/*
+ * Control LED using Serial Monitor.
+ * 
+ * LED Anode to pin 13
+ * LED Cathode to Resistor R1 = 220 Ohm
+ * Another end of R1 to GND
+ * Compile and Upload !
+*/
+
+
+
+
+
+
 void setup()
 
 {
