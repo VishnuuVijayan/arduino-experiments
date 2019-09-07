@@ -1,7 +1,12 @@
 /***********************************************************
-File name: 01_blinkingLed.ino
-Description: Lit LED, let LED blinks.
-Website: www.quadstore.in
+Blinking LED using Arduino UNO
+
+Connections
+
+LED Anode to pin 8
+LED Cathode to Resistor R1 = 220 Ohms
+Another end of R1 to GND of Arduino
+
 ***********************************************************/
 int ledPin=8; //definition digital 8 pins as pin to control the LED
 void setup()
