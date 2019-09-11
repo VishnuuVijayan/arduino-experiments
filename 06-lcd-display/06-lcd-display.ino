@@ -2,7 +2,7 @@
 #include <LiquidCrystal.h>
 
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
-LiquidCrystal lcd(1, 2, 4, 5, 6, 7);
+LiquidCrystal lcd(4, 6, 10, 11, 12, 13);
 
 byte heart1[8] =
 {
